@@ -30,7 +30,7 @@ header nav li {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  max-width: 1140px;
+  max-width: 1440px;
   margin: 203px auto auto auto;
 }
 @media (max-width: 720px) {
@@ -43,6 +43,11 @@ header nav li {
   font-weight: 700;
   font-size: 36px;
   width: 527px;
+}
+@media (max-width: 720px) {
+  .container div p {
+    width: 360px;
+  }
 }
 .container div button {
   width: 290px;
