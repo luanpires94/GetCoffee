@@ -63,4 +63,7 @@ header nav li {
   margin: 32px 0;
   font-weight: 700;
   cursor: pointer;
+}
+.container .box-media img:nth-child(2) {
+  margin: 0 15px;
 }/*# sourceMappingURL=style.css.map */
