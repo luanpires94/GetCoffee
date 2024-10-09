@@ -11,9 +11,9 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1440px;
   margin: 0 auto;
   height: 80px;
+  box-shadow: 0px 1px 8px 0px #24242426;
 
   nav {
     @media (max-width: 700px) {
@@ -43,6 +43,10 @@ header {
   @media (max-width: 720px) {
     flex-wrap: wrap-reverse;
     margin: 30px auto auto auto;
+
+    .box-glass {
+      display: none;
+    }
   }
 
   div p {
@@ -69,6 +73,6 @@ header {
   }
 
   .box-media img:nth-child(2) {
-    margin: 0 15px;
+    // margin: 0 15px;
   }
 }
